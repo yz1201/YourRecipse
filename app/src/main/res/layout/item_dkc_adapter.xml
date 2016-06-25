@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_list"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/holo_green_dark">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="16dp"
+            fresco:roundedCornerRadius="10dp"
+            fresco:viewAspectRatio="1.3" />
+
+        <TextView
+            android:id="@+id/tv_dkc_adapter_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sdv"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="12dp"
+            android:text="sdad"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tv_dkc_adapter_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sdv"
+            android:layout_alignLeft="@id/tv_dkc_adapter_name"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+            android:text="dasd"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

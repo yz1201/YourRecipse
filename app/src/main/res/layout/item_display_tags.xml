@@ -1,0 +1,44 @@
+<LinearLayout
+    android:id="@+id/ll_dp_tagslayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_dp_tags0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_dp_tags1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_dp_tags2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_dp_tags3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_dp_tags4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp" />
+</LinearLayout>
